@@ -18,7 +18,7 @@ pipeline {
         }
         
 
-  stage('Docker Build and Tag') {
+/*  stage('Docker Build and Tag') {
            steps {
               
                 sh 'docker build -t samplewebapp:latest .' 
@@ -26,7 +26,7 @@ pipeline {
                 //sh 'docker tag samplewebapp nikhilnidhi/samplewebapp:$BUILD_NUMBER'
                
           }
-        }
+        }*/
      
   /*stage('Publish image to Docker Hub') {
           
